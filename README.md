@@ -39,7 +39,7 @@ Office Scriptsが利用できる状態であれば、Web版のExcelを開いた�
 |------|-------------|
 | OS | Windows 10 Pro x64 |
 | Office | [Web版のMicrosoft Excel](https://www.office.com/launch/excel) (Excel on the web) |
-| Browser | Microsoft Edge(Chromium版), Google Chrome |
+| Browser | [Microsoft Edge(Chromium版)](https://www.microsoft.com/ja-jp/edge), [Google Chrome](https://www.google.com/chrome/) |
 
 ## ハンズオン内容
 
