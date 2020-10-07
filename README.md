@@ -18,16 +18,15 @@
 Office Scriptsを利用するには、下記のサブスクリプションが必要となります。  
 当サブスクリプションをお持ちでない方は、「[Microsoft 365 開発者プログラムの登録方法](https://github.com/kinuasa/Setup-M365-DevProgram)」を参考に、「[Microsoft 365 開発者プログラム](https://developer.microsoft.com/ja-jp/microsoft-365/dev-program)」に登録してください。本プログラムに登録することで、開発者用のMicrosoft 365 E5サブスクリプション(25ユーザーライセンス)を**無料**で取得できます。
 
-> - Office 365 Business
-> - Office 365 Business Premium
-> - Office 365 ProPlus
-> - Office 365 ProPlus デバイス用
-> - Office 365 Enterprise E3
-> - Office 365 Enterprise E5
+> - Microsoft 365 Business Standard
+> - Microsoft 365 Apps for business
+> - エンタープライズ向け Microsoft 365 アプリ
+> - Office 365 E3
+> - Office 365 E5
 > - Office 365 A3
 > - Office 365 A5
 
-[https://docs.microsoft.com/ja-jp/office/dev/scripts/overview/excel?WT.mc_id=M365-MVP-4029057#requirements](https://docs.microsoft.com/ja-jp/office/dev/scripts/overview/excel?WT.mc_id=M365-MVP-4029057#requirements) より
+[https://docs.microsoft.com/ja-jp/microsoft-365/admin/manage/manage-office-scripts-settings?WT.mc_id=M365-MVP-4029057&view=o365-worldwide#before-you-begin](https://docs.microsoft.com/ja-jp/microsoft-365/admin/manage/manage-office-scripts-settings?WT.mc_id=M365-MVP-4029057&view=o365-worldwide#before-you-begin) より
 
 2. Office Scriptsの有効化
 
