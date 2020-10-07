@@ -3,6 +3,16 @@
 ※本資料は、 [Global Microsoft 365 Developer Bootcamp 2020 Tokyo](https://connpass.com/event/188084/) イベントの「**Office Scripts (Office スクリプト) & Power Automate**」ハンズオンセッションの資料です。  
 ※2020年10月時点では、「Office Scripts」はまだパブリックプレビューです。今後仕様が変更される可能性がありますので、その点はご注意ください。
 
+- [ハンズオンの目的](#ハンズオンの目的)
+- [事前準備](#事前準備)
+- [ハンズオン環境](#ハンズオン環境)
+- [ハンズオン内容](#ハンズオン内容)
+- [もっとハンズオン！](#もっとハンズオン！)
+- [参考Webサイト](#参考Webサイト)
+- [Office アドインのMicrosoft Learnコンテンツ](#Office-アドインのMicrosoft-Learnコンテンツ)
+
+---
+
 ## ハンズオンの目的
 
 [Ignite 2019](https://news.microsoft.com/ignite2019/)で、Web版のExcel(Excel on the web)での処理をスクリプトで自動化する機能「**Office Scripts (Office スクリプト)**」が発表されました。
