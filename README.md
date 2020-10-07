@@ -99,6 +99,8 @@ Office Scriptsが利用できる状態であれば、Web版のExcelを開いた�
 1. [非同期 Api を使用する古い Office スクリプトをサポートする | Microsoft Docs](https://docs.microsoft.com/ja-jp/office/dev/scripts/develop/excel-async-model?WT.mc_id=M365-MVP-4029057)
 1. [Office スクリプトのサンプルシナリオ | Microsoft Docs](https://docs.microsoft.com/ja-jp/office/dev/scripts/resources/scenarios/sample-scenario-overview?WT.mc_id=M365-MVP-4029057)
 1. [Automate spreadsheets with Office Scripts in Microsoft Excel | Channel 9](https://channel9.msdn.com/events/Build/2020/INT114?WT.mc_id=M365-MVP-4029057)
+1. [Office Scripts with Power Automate | YouTube](https://www.youtube.com/watch?v=1jxXXnxdG9A)
+1. [What's new in Office Scripts for Excel on the web | YouTube](https://www.youtube.com/watch?v=94YYO3xiSOI)
 
 ## Office アドインのMicrosoft Learnコンテンツ
 
