@@ -21,6 +21,15 @@
 本ハンズオンは、「**Office Scripts**」の概要と開発方法の学習を目的としています。  
 実際にスクリプトを書いて実行し、Power Automateとの連携を体験することで、 **“Office Scriptsでどんなことができるのか”** を学んでいきましょう！
 
+## ハンズオンの対象者
+
+本ハンズオンは下記のような人を主な対象としています。
+
+- Web版のExcel(Excel on the web)を使ったことがあり、処理の自動化に興味がある。
+- JavaScript(TypeScript)でコードを書いたことがある。
+- Power Automateを知っている、あるいは使ったことがある。
+- VBAマクロを書いたことがある。
+
 ## 事前準備
 
 1. Microsoft 365 開発者プログラムの登録
@@ -79,6 +88,7 @@ Office Scriptsが利用できる状態であれば、Web版のExcelを開いた�
 余裕がある方は、是非下記内容にもチャレンジしてみてください！ :smile:
 
 1. [サンプルスクリプト](https://docs.microsoft.com/ja-JP/office/dev/scripts/resources/excel-samples?WT.mc_id=M365-MVP-4029057)
+1. [Office ScriptsとPower Automateで備品購入申請書を作成する](/RequisitionSlipFlow.md)
 1. ※Power Automateとの連携を中心に課題作成予定
 
 ## 参考Webサイト
