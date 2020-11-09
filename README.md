@@ -1,15 +1,18 @@
 # Global Microsoft 365 Developer Bootcamp 2020:Office Scripts & Power Automate Hands-on
 
 ※本資料は、 [Global Microsoft 365 Developer Bootcamp 2020 Tokyo](https://connpass.com/event/188084/) イベントの「**Office Scripts (Office スクリプト) & Power Automate**」ハンズオンセッションの資料です。  
-※2020年10月時点では、「Office Scripts」はまだパブリックプレビューです。今後仕様が変更される可能性がありますので、その点はご注意ください。
+※2020年11月時点では、「Office Scripts」はまだパブリックプレビューです。今後仕様が変更される可能性がありますので、その点はご注意ください。  
+※ハッシュタグ：[#GM365TOKYO](https://twitter.com/search?q=%23GM365TOKYO&f=live) , [#OfficeScripts](https://twitter.com/search?q=%23OfficeScripts&f=live)
 
 - [ハンズオンの目的](#ハンズオンの目的)
 - [ハンズオンの対象者](#ハンズオンの対象者)
+- [タイムテーブル](#タイムテーブル)
 - [事前準備](#事前準備)
 - [ハンズオン環境](#ハンズオン環境)
 - [ハンズオン内容](#ハンズオン内容)
 - [もっとハンズオン！](#もっとハンズオン！)
 - [参考Webサイト](#参考Webサイト)
+- [Q&Aサイト・フィードバック先](#Q&Aサイト・フィードバック先)
 - [Office アドインのMicrosoft Learnコンテンツ](#Office-アドインのMicrosoft-Learnコンテンツ)
 
 ---
@@ -30,6 +33,20 @@
 - JavaScript(TypeScript)でコードを書いたことがある。
 - Power Automateを知っている、あるいは使ったことがある。
 - VBAマクロを書いたことがある。
+- セッションレベル：Level 100- Beginner/Introductory 初学者向け ～ Level 200- Intermediate 初級者向け
+
+## タイムテーブル
+
+|  |  |
+|------|-------------|
+| ご挨拶～ハンズオン説明 | 10分 |
+| Microsoft 365 開発者プログラム説明 | 5分 |
+| Office Scripts概要 | 20～30分 |
+| ハンズオン(Excel on the web で Office スクリプトを記録、編集、作成する (公式チュートリアル)、Excel on the web で Office スクリプトを使用してブックのデータを読み取る (公式チュートリアル)) | 20分 |
+| 休憩 | 5分 |
+| ハンズオン(手動 Power Automation フローからスクリプトを呼び出す (公式チュートリアル)、自動で実行される Power Automate フロー内で、データをスクリプトに渡す (公式チュートリアル)) | 30分 |
+| もっとハンズオン！～Q&A | n分 |
+| まとめ＆アンケートのお願い | 5分 |
 
 ## 事前準備
 
@@ -51,7 +68,8 @@ Office Scriptsを利用するには、下記のサブスクリプションが必
 2. Office Scriptsの有効化
 
 「[Office スクリプトの可用性およびスクリプトの共有を管理する](https://docs.microsoft.com/ja-jp/microsoft-365/admin/manage/manage-office-scripts-settings?WT.mc_id=M365-MVP-4029057#manage-availability-of-office-scripts-and-sharing-of-scripts)」を参考に、Microsoft 365 管理センターからOffice Scriptsを有効にしてください。なお、本設定の反映には最大48時間かかる場合があります。  
-Office Scriptsが利用できる状態であれば、Web版のExcelを開いた際、「自動化」タブが表示されます。
+Office Scriptsが利用できる状態であれば、Web版のExcelを開いた際、「自動化」タブが表示されます。  
+([※タブが表示されないときは？](https://docs.microsoft.com/ja-jp/office/dev/scripts/testing/troubleshooting?WT.mc_id=M365-MVP-4029057#automate-tab-not-appearing-or-office-scripts-unavailable))
 
 ## ハンズオン環境
 
@@ -64,7 +82,7 @@ Office Scriptsが利用できる状態であれば、Web版のExcelを開いた�
 ## ハンズオン内容
 
 1. Office Scripts概要
-    1. ※ 「[はじめてのOffice Scripts](https://www.slideshare.net/kinuasa/office-scripts)」をベースにスライド作成予定
+    1. スライド：[Global Microsoft 365 Developer Bootcamp 2020 TOKYO - Office Scriptsハンズオン](https://www.slideshare.net/kinuasa/global-microsoft-365-developer-bootcamp-2020-tokyo-office-scripts)
 1. Excel on the web で Office スクリプトを記録、編集、作成する (公式チュートリアル)
     1. [データを追加し、基本スクリプトを記録する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-tutorial?WT.mc_id=M365-MVP-4029057#add-data-and-record-a-basic-script)
     1. [既存のスクリプトを編集する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-tutorial?WT.mc_id=M365-MVP-4029057#edit-an-existing-script)
@@ -88,9 +106,11 @@ Office Scriptsが利用できる状態であれば、Web版のExcelを開いた�
 
 余裕がある方は、是非下記内容にもチャレンジしてみてください！ :smile:
 
-1. [サンプルスクリプト](https://docs.microsoft.com/ja-JP/office/dev/scripts/resources/excel-samples?WT.mc_id=M365-MVP-4029057)
 1. [Office ScriptsとPower Automateで備品購入申請書を作成する](/RequisitionSlipFlow.md)
-1. ※Power Automateとの連携を中心に課題作成予定
+1. [Office ScriptsとPower Automateで簡単なメールアーカイブを作る方法](https://www.ka-net.org/blog/?p=13077)
+1. [サンプルスクリプト](https://docs.microsoft.com/ja-JP/office/dev/scripts/resources/excel-samples?WT.mc_id=M365-MVP-4029057)
+1. [Cross Reference and formatting two Excel files using Office Scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535)
+1. [Excel and Microsoft Forms integration using Office Scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Excel-and-Microsoft-Forms-integration-using-Office-Scripts/td-p/728183)
 
 ## 参考Webサイト
 
@@ -112,6 +132,18 @@ Office Scriptsが利用できる状態であれば、Web版のExcelを開いた�
 1. [Automate spreadsheets with Office Scripts in Microsoft Excel | Channel 9](https://channel9.msdn.com/events/Build/2020/INT114?WT.mc_id=M365-MVP-4029057)
 1. [Office Scripts with Power Automate | YouTube](https://www.youtube.com/watch?v=1jxXXnxdG9A)
 1. [What's new in Office Scripts for Excel on the web | YouTube](https://www.youtube.com/watch?v=94YYO3xiSOI)
+1. [What’s cooking with Office Scripts: Getting Started | YouTube](https://www.youtube.com/watch?v=FlWerQobJBM)
+1. [Office Scripts: Send Teams meeting invite based on Excel table data | YouTube](https://www.youtube.com/watch?v=HyBdx52NOE8)
+1. [Office Scripts: Calculate, create Chart, get Chart & Table image, Email | YouTube](https://www.youtube.com/watch?v=152GJyqc-Kw)
+1. [Office Scripts: Manage calculate mode, calculate | YouTube](https://www.youtube.com/watch?v=iw6O8QH01CI)
+1. [Use Filter on Table and get Visible Range as Objects | YouTube](https://www.youtube.com/watch?v=Mv7BrvPq84A)
+1. [Clear Hyperlinks from Excel Cells | YouTube](https://www.youtube.com/watch?v=v20fdinxpHU)
+1. [Add comments to Excel Cells | YouTube](https://www.youtube.com/watch?v=CpR78nkaOFw)
+
+## Q&Aサイト・フィードバック先
+
+1. [Stack Overflow - office-scripts](https://stackoverflow.com/questions/tagged/office-scripts)
+1. [UserVoice - Excel for the web](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)
 
 ## Office アドインのMicrosoft Learnコンテンツ
 
