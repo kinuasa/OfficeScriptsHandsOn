@@ -107,6 +107,7 @@ Office Scriptsが利用できる状態であれば、Web版のExcelを開いた�
 余裕がある方は、是非下記内容にもチャレンジしてみてください！ :smile:
 
 1. [Office ScriptsとPower Automateで備品購入申請書を作成する](/RequisitionSlipFlow.md)
+1. [スクリプトの戻り値を利用するフローのサンプル](/ReturningDataFlow.md)
 1. [Office ScriptsとPower Automateで簡単なメールアーカイブを作る方法](https://www.ka-net.org/blog/?p=13077)
 1. [サンプルスクリプト](https://docs.microsoft.com/ja-JP/office/dev/scripts/resources/excel-samples?WT.mc_id=M365-MVP-4029057)
 1. [Cross Reference and formatting two Excel files using Office Scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535)
