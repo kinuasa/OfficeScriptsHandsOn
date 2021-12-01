@@ -44,7 +44,7 @@
 | Office スクリプト概要 | 20～30分 |
 | ハンズオン(「Excel on the web で Office スクリプトを記録、編集、作成する」、「Excel on the web で Office スクリプトを使用してブックのデータを読み取る」、「ブックに画像を追加する」) | 20分 |
 | 休憩 | 5分 |
-| ハンズオン(「手動 Power Automation フローからスクリプトを呼び出す」、「フローからスクリプトにデータを渡す方法とスクリプトからデータを返す方法」、「自動で実行される Power Automate フロー内で、データをスクリプトに渡す」) | 30分 |
+| ハンズオン(「手動 Power Automation フローからスクリプトを呼び出す」、「フローからスクリプトにデータを渡す方法とスクリプトからデータを返す方法」、「フローからスクリプト経由でワークシート関数を実行する方法」、「Office スクリプトとPower Automateで見積書を発行する」) | 40分 |
 | もっとハンズオン！～Q&A | n分 |
 | まとめ＆アンケートのお願い | 5分 |
 
@@ -101,21 +101,19 @@ Office スクリプトが利用できる状態であれば、Web版のExcelを�
     1. [Power Automate を使用して自動化されたワークフローを作成する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-manual?WT.mc_id=M365-MVP-4029057#create-an-automated-workflow-with-power-automate)
     1. [Power Automate でスクリプトを実行する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-manual?WT.mc_id=M365-MVP-4029057#run-the-script-through-power-automate)
 1. [フローからスクリプトにデータを渡す方法とスクリプトからデータを返す方法](/DataTransferInFlows.md)
-1. 自動で実行される Power Automate フロー内で、データをスクリプトに渡す (公式チュートリアル)
-    1. [ブックを準備する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-trigger?WT.mc_id=M365-MVP-4029057#prepare-the-workbook)
-    1. [Office スクリプトを作成する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-trigger?WT.mc_id=M365-MVP-4029057#create-an-office-script)
-    1. [Power Automate を使用して自動化されたワークフローを作成する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-trigger?WT.mc_id=M365-MVP-4029057#create-an-automated-workflow-with-power-automate)
-    1. [Power Automate でスクリプトを管理する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-trigger?WT.mc_id=M365-MVP-4029057#manage-the-script-in-power-automate) 
+1. [フローからスクリプト経由でワークシート関数を実行する方法](/UsingExcelWorksheetFunction.md)
+1. [Office スクリプトとPower Automateで見積書を発行する](/PrepareQuote.md)
 
 ## もっとハンズオン！
 
 余裕がある方は、是非下記内容にもチャレンジしてみてください！ :smile:
 
-1. [Office ScriptsとPower Automateで備品購入申請書を作成する](/RequisitionSlipFlow.md)
-1. [スクリプトの戻り値を利用するフローのサンプル](/ReturningDataFlow.md)
-1. [Office ScriptsとPower Automateで簡単なメールアーカイブを作る方法](https://www.ka-net.org/blog/?p=13077)
 1. [サンプルスクリプト](https://docs.microsoft.com/ja-JP/office/dev/scripts/resources/excel-samples?WT.mc_id=M365-MVP-4029057)
 1. [Power Automate フローでマクロ ファイルを使用する](https://docs.microsoft.com/ja-jp/office/dev/scripts/develop/macros-power-automate?WT.mc_id=M365-MVP-4029057)
+1. [Office ScriptsとPower Automateで備品購入申請書を作成する](/RequisitionSlipFlow.md)
+1. [スクリプトの戻り値を利用するフローのサンプル](/ReturningDataFlow.md)
+1. [[Office Scripts]任意の場所にあるスクリプトを実行する方法](https://www.ka-net.org/blog/?p=13932)
+1. [Office ScriptsとPower Automateで簡単なメールアーカイブを作る方法](https://www.ka-net.org/blog/?p=13077)
 1. [Cross Reference and formatting two Excel files using Office Scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535)
 1. [Excel and Microsoft Forms integration using Office Scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Excel-and-Microsoft-Forms-integration-using-Office-Scripts/td-p/728183)
 
