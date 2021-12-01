@@ -1,6 +1,6 @@
 # Japan Microsoft 365 Developer Community Day 2021:Office Scripts & Power Automate Hands-on
 
-※本資料は、 [Japan Microsoft 365 Developer Community Day 2021](https://connpass.com/event/188084/) イベントの「**Office スクリプト (Office Scripts) & Power Automate**」ハンズオンセッションの資料です。  
+※本資料は、 [Japan Microsoft 365 Developer Community Day 2021](https://jpm365dev.connpass.com/event/227478/) イベントの「**Office スクリプト (Office Scripts) & Power Automate**」ハンズオンセッションの資料です。  
 ※ハッシュタグ：[#jpm365dcd](https://twitter.com/search?q=%23jpm365dcd&f=live) , [#OfficeScripts](https://twitter.com/search?q=%23OfficeScripts&f=live)
 
 - [ハンズオンの目的](#ハンズオンの目的)
@@ -39,12 +39,12 @@
 
 |  |  |
 |------|-------------|
-| ご挨拶～ハンズオン説明 | 10分 |
+| ご挨拶～ハンズオン説明 | 5分 |
 | Microsoft 365 開発者プログラム説明 | 5分 |
 | Office スクリプト概要 | 20～30分 |
-| ハンズオン(Excel on the web で Office スクリプトを記録、編集、作成する (公式チュートリアル)、Excel on the web で Office スクリプトを使用してブックのデータを読み取る (公式チュートリアル)) | 20分 |
+| ハンズオン(「Excel on the web で Office スクリプトを記録、編集、作成する」、「Excel on the web で Office スクリプトを使用してブックのデータを読み取る」、「ブックに画像を追加する」) | 20分 |
 | 休憩 | 5分 |
-| ハンズオン(手動 Power Automation フローからスクリプトを呼び出す (公式チュートリアル)、自動で実行される Power Automate フロー内で、データをスクリプトに渡す (公式チュートリアル)) | 30分 |
+| ハンズオン(「手動 Power Automation フローからスクリプトを呼び出す」、「フローからスクリプトにデータを渡す方法とスクリプトからデータを返す方法」、「自動で実行される Power Automate フロー内で、データをスクリプトに渡す」) | 30分 |
 | もっとハンズオン！～Q&A | n分 |
 | まとめ＆アンケートのお願い | 5分 |
 
@@ -52,7 +52,7 @@
 
 1. Microsoft 365 開発者プログラムの登録
 
-Office Scriptsを利用するには、下記のサブスクリプションが必要となります。  
+Office スクリプトを利用するには、下記のサブスクリプションが必要となります。  
 当サブスクリプションをお持ちでない方は、「[Microsoft 365 開発者プログラムの登録方法](https://github.com/kinuasa/Setup-M365-DevProgram)」を参考に、「[Microsoft 365 開発者プログラム](https://developer.microsoft.com/ja-jp/microsoft-365/dev-program)」に登録してください。本プログラムに登録することで、開発者用のMicrosoft 365 E5サブスクリプション(25ユーザーライセンス)を**無料**で取得できます。
 
 > - Microsoft 365 Business Standard
@@ -91,11 +91,16 @@ Office スクリプトが利用できる状態であれば、Web版のExcelを�
     1. [セルを読み取る](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-read-tutorial?WT.mc_id=M365-MVP-4029057#read-a-cell)
     1. [セルの値を変更する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-read-tutorial?WT.mc_id=M365-MVP-4029057#modify-the-value-of-a-cell)
     1. [列の値を変更する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-read-tutorial?WT.mc_id=M365-MVP-4029057#modify-the-values-of-a-column)
+1. ブックに画像を追加する (公式チュートリアル)
+    1. [サンプル Excel ファイル](https://docs.microsoft.com/ja-jp/office/dev/scripts/resources/samples/add-image-to-workbook?WT.mc_id=M365-MVP-4029057#sample-excel-file)
+    1. [サンプル コード: ワークシート間で画像をコピーする](https://docs.microsoft.com/ja-jp/office/dev/scripts/resources/samples/add-image-to-workbook?WT.mc_id=M365-MVP-4029057#sample-code-copy-an-image-across-worksheets)
+    1. [サンプル コード: URL からブックにイメージを追加する](https://docs.microsoft.com/ja-jp/office/dev/scripts/resources/samples/add-image-to-workbook?WT.mc_id=M365-MVP-4029057#sample-code-add-an-image-from-a-url-to-a-workbook)
 1. 手動 Power Automation フローからスクリプトを呼び出す (公式チュートリアル)
     1. [ブックを準備する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-manual?WT.mc_id=M365-MVP-4029057#prepare-the-workbook)
     1. [オフィス スクリプトを作成する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-manual?WT.mc_id=M365-MVP-4029057#create-an-office-script)
     1. [Power Automate を使用して自動化されたワークフローを作成する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-manual?WT.mc_id=M365-MVP-4029057#create-an-automated-workflow-with-power-automate)
     1. [Power Automate でスクリプトを実行する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-manual?WT.mc_id=M365-MVP-4029057#run-the-script-through-power-automate)
+1. [フローからスクリプトにデータを渡す方法とスクリプトからデータを返す方法](/DataTransferInFlows.md)
 1. 自動で実行される Power Automate フロー内で、データをスクリプトに渡す (公式チュートリアル)
     1. [ブックを準備する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-trigger?WT.mc_id=M365-MVP-4029057#prepare-the-workbook)
     1. [Office スクリプトを作成する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-trigger?WT.mc_id=M365-MVP-4029057#create-an-office-script)
@@ -110,6 +115,7 @@ Office スクリプトが利用できる状態であれば、Web版のExcelを�
 1. [スクリプトの戻り値を利用するフローのサンプル](/ReturningDataFlow.md)
 1. [Office ScriptsとPower Automateで簡単なメールアーカイブを作る方法](https://www.ka-net.org/blog/?p=13077)
 1. [サンプルスクリプト](https://docs.microsoft.com/ja-JP/office/dev/scripts/resources/excel-samples?WT.mc_id=M365-MVP-4029057)
+1. [Power Automate フローでマクロ ファイルを使用する](https://docs.microsoft.com/ja-jp/office/dev/scripts/develop/macros-power-automate?WT.mc_id=M365-MVP-4029057)
 1. [Cross Reference and formatting two Excel files using Office Scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535)
 1. [Excel and Microsoft Forms integration using Office Scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Excel-and-Microsoft-Forms-integration-using-Office-Scripts/td-p/728183)
 
@@ -130,6 +136,7 @@ Office スクリプトが利用できる状態であれば、Web版のExcelを�
 1. [プラットフォームの制限 | Microsoft Docs](https://docs.microsoft.com/ja-jp/office/dev/scripts/testing/platform-limits?WT.mc_id=M365-MVP-4029057)
 1. [Office スクリプトの効果を元に戻す | Microsoft Docs](https://docs.microsoft.com/ja-jp/office/dev/scripts/testing/undo?WT.mc_id=M365-MVP-4029057)
 1. [Officeスクリプトのサンプルとシナリオ | Microsoft Docs](https://docs.microsoft.com/ja-jp/office/dev/scripts/resources/scenarios/sample-scenario-overview?WT.mc_id=M365-MVP-4029057)
+1. [Office スクリプトでのベスト プラクティス | Microsoft Docs](https://docs.microsoft.com/ja-jp/office/dev/scripts/develop/best-practices?WT.mc_id=M365-MVP-4029057)
 
 ## 参考動画
 
