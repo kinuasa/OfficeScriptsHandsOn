@@ -4,6 +4,7 @@
 - [見積書テンプレート](#見積書テンプレート)
 - [使用するフォルダの構成](#使用するフォルダの構成)
 - [フロー説明](#フロー説明)
+- [動作確認](#動作確認)
 - [関連資料](#関連資料)
 
 ---
@@ -136,6 +137,29 @@ interface QuotInfo {
 宛先や件名等の必要事項は「見積情報取得」で取得した値を使用します。  
 
 ![PrepareQuote_10.jpg](images/PrepareQuote_10.jpg)
+
+## 動作確認
+
+フローが作成できたら動作確認を行います。  
+テンプレートファイルを適当な場所にコピーして必要事項を入力します。  
+
+![PrepareQuote_11.jpg](images/PrepareQuote_11.jpg)
+
+![PrepareQuote_12.jpg](images/PrepareQuote_12.jpg)
+
+編集が終わったら、トリガーとなる「**見積書**」フォルダにファイルを保存します。  
+
+![PrepareQuote_13.jpg](images/PrepareQuote_13.jpg)
+
+![PrepareQuote_14.jpg](images/PrepareQuote_14.jpg)
+
+![PrepareQuote_15.jpg](images/PrepareQuote_15.jpg)
+
+フローが動作し、メール送信されることを確認します。  
+
+![PrepareQuote_16.jpg](images/PrepareQuote_16.jpg)
+
+![PrepareQuote_17.jpg](images/PrepareQuote_17.jpg)
 
 ## 関連資料
 

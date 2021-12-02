@@ -44,7 +44,7 @@
 | Office スクリプト概要 | 20～30分 |
 | ハンズオン(「Excel on the web で Office スクリプトを記録、編集、作成する」、「Excel on the web で Office スクリプトを使用してブックのデータを読み取る」、「ブックに画像を追加する」) | 20分 |
 | 休憩 | 5分 |
-| ハンズオン(「手動 Power Automation フローからスクリプトを呼び出す」、「フローからスクリプトにデータを渡す方法とスクリプトからデータを返す方法」、「フローからスクリプト経由でワークシート関数を実行する方法」、「Office スクリプトとPower Automateで見積書を発行する」) | 40分 |
+| ハンズオン(「手動 Power Automation フローからスクリプトを呼び出す」、「フローからスクリプトにデータを渡す方法とスクリプトからデータを返す方法」、「Office スクリプトとPower Automateで見積書を発行する」、「フローからテーブルをフィルタリングして結果を取得する方法」、「フローからスクリプト経由でワークシート関数を実行する方法」) | 40分 |
 | もっとハンズオン！～Q&A | n分 |
 | まとめ＆アンケートのお願い | 5分 |
 
@@ -101,8 +101,9 @@ Office スクリプトが利用できる状態であれば、Web版のExcelを�
     1. [Power Automate を使用して自動化されたワークフローを作成する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-manual?WT.mc_id=M365-MVP-4029057#create-an-automated-workflow-with-power-automate)
     1. [Power Automate でスクリプトを実行する](https://docs.microsoft.com/ja-JP/office/dev/scripts/tutorials/excel-power-automate-manual?WT.mc_id=M365-MVP-4029057#run-the-script-through-power-automate)
 1. [フローからスクリプトにデータを渡す方法とスクリプトからデータを返す方法](/DataTransferInFlows.md)
-1. [フローからスクリプト経由でワークシート関数を実行する方法](/UsingExcelWorksheetFunction.md)
 1. [Office スクリプトとPower Automateで見積書を発行する](/PrepareQuote.md)
+1. [フローからテーブルをフィルタリングして結果を取得する方法](/GetFilteredResults.md)
+1. [フローからスクリプト経由でワークシート関数を実行する方法](/UsingExcelWorksheetFunction.md)
 
 ## もっとハンズオン！
 
